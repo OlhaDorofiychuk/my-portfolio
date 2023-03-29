@@ -8,6 +8,7 @@ justify-self: center;
 
 .contact_information{
 display: grid;
+grid-template-columns: minmax(200px,1fr);
 gap: 20px;
 justify-content: space-around;
 max-width: 50%;
@@ -39,4 +40,5 @@ a {
   text-decoration: none;
   font-size: larger;
   border-radius: 15px;
+  width: 100%;
 }
