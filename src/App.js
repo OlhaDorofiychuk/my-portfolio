@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
      <header>My Portfolio</header>
-     <nav>
-      <ul>
+     <nav className='navigation'>
+      <ul className='links'>
         <li>
         <Link to='/'>Home</Link>
         </li>
@@ -20,7 +20,8 @@ function App() {
       <li>
       <Link to='/projects'>Projects </Link>
       </li>
-      
+      <link></link>
+      {/* //https://www.linkedin.com/in/olha-dorofiychuk-655353178/ */}
       </ul>
      </nav>
      <main>

@@ -6,9 +6,9 @@ justify-self: center;
   border-radius: 80px;
 }
 
-  .contact_information{
-display: flex;
-/* justify-content: space-between; */
+.contact_information{
+display: grid;
+gap: 20px;
 justify-content: space-around;
 max-width: 50%;
 font-size: x-large;
@@ -20,4 +20,23 @@ header {
   justify-content: center;
 }
 
+.links {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  
+}
+ .links li {
+  width: 550px;
+  box-shadow: 50px 100px 5px solid rgb(3, 52, 3);
+  background-color: rgba(60, 198, 60, 0.479);
+ }
 
+a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: larger;
+  border-radius: 15px;
+}
