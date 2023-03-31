@@ -8,7 +8,7 @@ import { Projects } from './components/Projects';
 function App() {
   return (
     <div className="App">
-     <header>My Portfolio</header>
+     <header>Olha's Dorofiychuk Portfolio</header>
      <nav className='navigation'>
       <ul className='links'>
         <li>
@@ -20,7 +20,7 @@ function App() {
       <li>
       <Link to='/projects'>Projects </Link>
       </li>
-      <link></link>
+      <button className="linkedin"><a href="https://www.linkedin.com/in/olha-dorofiychuk-655353178/" alt='link'></a><span className='button_stext'>linkedin</span></button>
       {/* //https://www.linkedin.com/in/olha-dorofiychuk-655353178/ */}
       </ul>
      </nav>
