@@ -1,0 +1,22 @@
+.progects-container {
+    color: antiquewhite;
+}
+.project{
+    width: auto;
+}
+.project-title{
+    font-weight: 700;
+}
+.description{
+    color: black;
+    font-size: x-large;
+    font-family: sans-serif;
+    padding: 15px
+}
+/* .screenshot-row{
+    display: grid;
+} */
+
+.screenshot {
+    width: 700px;
+}

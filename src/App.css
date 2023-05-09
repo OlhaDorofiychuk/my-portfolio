@@ -1,33 +1,18 @@
 body {
   background-color:whitesmoke;
 }
+.App{
+  height: 100vh;
+}
 header {
   font-size: 50px;
   display: flex;
   justify-content: center;
 }
-
- .links li {
-  display: inline-flex;
-  flex-direction: row;
-  justify-self: right;
-  gap: 20px;
-  width: 350px;
-  box-shadow: 50px 100px 5px solid rgb(3, 52, 3);
-  background-color: rgba(60, 198, 60, 0.479);
-  margin-right: 20px;
-  height: 50px;
-  
- } 
- .links li a{
-  text-decoration: none;
-  width: 100%;
- }
-.navigation {
+.links{
   display: flex;
-  justify-content: flex-end;
+  align-self: flex-start;
 }
-
 .linkedin {
   display: flex;
   flex-direction: row;
@@ -57,4 +42,34 @@ header {
 }
 .linkedin:active {
   filter: brightness(88%);
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+.links li {
+  display: inline-flex;
+  flex-direction: row;
+  justify-self: right;
+  gap: 20px;
+  width: 350px;
+  background-color: rgb(240, 217, 217);
+  margin-right: 20px;
+  height: 50px;
+  border-radius: 40px;
+}
+.links li a {
+  text-decoration: none;
+  width: 100%;
+}
+
+a {
+  display: flex;
+  color: black;
+  font-weight: 700;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
 }
