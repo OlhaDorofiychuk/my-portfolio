@@ -73,3 +73,25 @@ a {
   padding-top: 15px;
   border-radius: 20px;
 }
+.about-container{
+  display: grid;
+  grid-template-columns: 0,5fr 2fr 0,5fr;
+  grid-template-rows: auto;
+  row-gap: 20px;
+  text-align: center;
+}
+.about {
+  display: flex;
+  align-self: center;
+  justify-items: center;
+  text-align: center;
+  width: 600px;
+  font-size: x-large;
+  margin: 0;
+}
+
+
+.content-wrapper {
+  margin: 50px auto;
+}
+

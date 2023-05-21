@@ -1,9 +1,10 @@
 .progects-container {
     color: antiquewhite;
 }
-.project{
-    width: auto;
-}
+
+.project-wrapper {
+    margin: 20px auto;
+    }
 .project-title{
     font-weight: 700;
 }
@@ -13,10 +14,16 @@
     font-family: sans-serif;
     padding: 15px
 }
-/* .screenshot-row{
-    display: grid;
-} */
 
 .screenshot {
     width: 700px;
+}
+
+.screenshot-row-first {
+    display: flex;
+    column-gap: 20px;
+    margin: 20px auto;
+    padding-left: 20px;
+
+
 }
