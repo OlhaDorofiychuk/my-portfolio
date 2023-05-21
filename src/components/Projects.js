@@ -4,7 +4,7 @@ export const Projects=()=>{
     return(
         <div className='progects-container'>
             
-                <div className="project project-wrapper">
+                <div className="project">
                     <span className="project-title">Whatch-it</span>
                     <div className="description">A simple yet aesthetically pleasing app to search and display movies by using TMDB API. User can search movies by name. As well posible to change color scheme from neutral grey to bright blue gradient. When user hoover over film card, smooth annimation provides a fill description.
 
